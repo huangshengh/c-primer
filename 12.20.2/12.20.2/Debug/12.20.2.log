@@ -1,0 +1,4 @@
+﻿  源.cpp
+源.obj : error LNK2019: 无法解析的外部符号 "public: class StrBlobPtr __thiscall StrBlob::begin(void)" (?begin@StrBlob@@QAE?AVStrBlobPtr@@XZ)，该符号在函数 _main 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 "public: class StrBlobPtr __thiscall StrBlob::end(void)" (?end@StrBlob@@QAE?AVStrBlobPtr@@XZ)，该符号在函数 _main 中被引用
+D:\c++primer\12.20.2\Debug\12.20.2.exe : fatal error LNK1120: 2 个无法解析的外部命令

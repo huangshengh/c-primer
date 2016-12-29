@@ -1,0 +1,24 @@
+﻿  12.20.cpp
+d:\c++primer\12.20\12.20\12.19.h(21): error C2061: 语法错误: 标识符“StrBlob”
+d:\c++primer\12.20\12.20\12.19.h(21): error C2535: “StrBlobPtr::StrBlobPtr(void)”: 已经定义或声明成员函数
+  d:\c++primer\12.20\12.20\12.19.h(20): note: 参见“StrBlobPtr::StrBlobPtr”的声明
+d:\c++primer\12.20\12.20\12.19.h(21): error C2065: “a”: 未声明的标识符
+d:\c++primer\12.20\12.20\12.19.h(21): error C2228: “.data”的左边必须有类/结构/联合
+  d:\c++primer\12.20\12.20\12.19.h(21): note: 类型是“unknown-type”
+d:\c++primer\12.20\12.20\12.19.h(21): error C2065: “sz”: 未声明的标识符
+d:\c++primer\12.20\12.20\12.19.h(31): error C2084: 函数“std::shared_ptr<std::vector<std::string,std::allocator<_Ty>>> StrBlobPtr::check(size_t,const std::string &) const”已有主体
+          with
+          [
+              _Ty=std::string
+          ]
+  d:\c++primer\12.20\12.20\12.19.h(25): note: 参见“check”的前一个定义
+d:\c++primer\12.20\12.20\12.19.h(43): error C3536: “p”: 初始化之前无法使用
+d:\c++primer\12.20\12.20\12.19.h(43): error C2100: 非法的间接寻址
+d:\c++primer\12.20\12.20\12.19.h(43): error C2109: 下标要求数组或指针类型
+d:\c++primer\12.20\12.20\12.19.h(73): error C2440: “<function-style-cast>”: 无法从“StrBlob”转换为“StrBlobPtr”
+  d:\c++primer\12.20\12.20\12.19.h(73): note: 无构造函数可以接受源类型，或构造函数重载决策不明确
+d:\c++primer\12.20\12.20\12.19.h(76): error C2440: “<function-style-cast>”: 无法从“initializer list”转换为“StrBlobPtr”
+  d:\c++primer\12.20\12.20\12.19.h(76): note: 无构造函数可以接受源类型，或构造函数重载决策不明确
+d:\c++primer\12.20\12.20\12.19.h(77): error C3536: “ret”: 初始化之前无法使用
+d:\c++primer\12.20\12.20\12.19.h(77): error C2440: “return”: 无法从“int”转换为“StrBlobPtr”
+  d:\c++primer\12.20\12.20\12.19.h(77): note: 无构造函数可以接受源类型，或构造函数重载决策不明确
